@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+body, html {
+    font-family:'Open Sans', sans-serif;
+    padding: 0%;
+    margin:0%;
+}
+h1{ font-weight: 800;
+    font-size: 50px;
+
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.hero-banner h1{
+    color: white;
+    margin: 14px 0 20px;
+}
+.hero-banner h3{
+    color: white;
+    margin: 14px 0 35px;}
+.hero-banner{
+    background-color: blue;
+    height: 100vh;
+    padding: 50px 20px;
+   box-sizing: border-box;
+   position: relative;
+
+}
+.character1 {
+    background: url('./characters/circle-guy.png') no-repeat 0 0;
+    background-size: 100%;
+    width:363px;
+    height: 344px;
+    position:absolute; Top: 100px; right: 97px;
+    transform: rotate(15deg);
+}
+.character2{
+    background: url('./characters/sticky-guy-1.png') no-repeat 0 0;
+    background-size: 100%;
+    width: 309px;
+    height: 471px;
+    position:absolute; Top: 213px; right: 300px;
+}
+.character3{
+    background: url('./characters/eish-guy.png') no-repeat 0 0;
+    background-size: 100%;
+    width: 250px;
+    height: 386px;
+    position:absolute; bottom: 74px; right: 45px;
+}
+
+
+a.cta,
+ button.cta{
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     background-color: 007fff;
+     display: inline-block;
+     box-shadow: 10px solid rgb(0,127,255,.15);
+     padding: 20px 30px;
+     border-radius: 10px;
+     text-decoration: none ;
+
+
+}
+a.cta.alt{
+   background-color: ffd400;
+   color: black;
+   box-shadow: 10px solid rgb(0,0,0,.15) ;
+
+ ;
+}
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position:sticky;
+}
+nav .logo{
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    background: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+   font-size: 35px;
+    margin-left: 20px;
+    color: black;
+    size: 70px;
+    text-transform:uppercase;
+    
+   
+}
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+nav li{
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    float: right;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 100%;
+    text-transform: uppercase;
+    size: 30px;
+    padding: 35px 10px;
+    line-height: 30px;
+ 
+}
+.more-info{
+    text-align: center;
+}
+.Highlight{
+    background-color: #FFADF9;
+    color: #ff3300;
+    margin: 5px 10px;
+    line-height: 50px;
+    display: inline-block;
+    font-weight: 800;
+}
+.more-info p{
+    margin: 18px 0 35px;
+}
+.more-info h2{
+    margin: 40x 0 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.sep{
+
+}
+.nb-list{
+    width:470px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ededed;
+    padding: 20px 20PX 0 20PX;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.story h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.nb-list li{
+height: 70px;
+border-radius: 10px;
+font-size: 40px;
+color: white;
+font-weight: bold;
+display: block;
+margin-bottom: 20px;
+padding: 6px 20px;
+box-sizing: border-box;
+}
+.nb-list li.dragging{
+    position: absolute;
+    top: 87px;
+    left: 70px;
+    right: -50px;
+    transform: rotate(6deg);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, .3);
+}
+.nb-list li.dragging::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 54px;
+    height: 50px;
+
+}
+.nb-list li.blue{
+    background-color: blue;
+}
+.nb-list li.yellow{
+    background-color:yellow;
+    color: black;
+}
+.nb-list li.grey{
+    background-color:grey;
+}
+.nb-list li.red{
+    background-color: red;
+}
+.nb-list li.pink{
+    background-color: pink;
+}
+.nb-list li.salmon{
+    background-color: salmon;
+}
+.sep{
+    width: 470px;
+    height: 20px;
+    background-color: black;
+    margin: 70px auto;
+
+}
+.thegangimg{
+    display: block;
+    margin: 0 auto;
+}
+footer h4{
+    text-align: center;
+}
