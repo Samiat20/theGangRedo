@@ -27,7 +27,7 @@
     <nav>
         <a href="#" class="logo">The GANG</a>
         <ul>
-            <li><a href='#'>Sign Up</a> </li>
+            <li><a href='#' id="clickin">Sign Up</a> </li>
             <li><a href='#story'>The Story</a></li>
             <li> <a href='#more-info'>More info</a></li>
            
@@ -80,12 +80,12 @@
     <h4> Made by sammy</h4>
 </div>
     </footer>
-    <div class="popup">
-    </div>
+    <div class="popup" id="popup">
     <div class="blanket"></div>
     <div class="content">
         <h2> Fill in your details</h2>
         <form action="">
+            <div class="row">
             <div class="item">
                 <label >Your first name</label>
                 <input type="text" placeholder="Samiat">
@@ -94,17 +94,22 @@
                 <label>Your Last name</label>
                 <input type="text" placeholder="Circle face" >
             </div>
+        </div>
+        <div class="row">
             <div class="item">
                 <label >Your Favourite Color</label>
                 <input type="text" placeholder="Green" >
             </div>
             <div class="item">
                 <label >Your Favourite food</label>
-                <input type="text" placeholder="Plantain" >
+                <input type="text" placeholder="Plantain">
             </div>
+        </div>
          <button class="button.cta"> I Want In </button>
         </form>
-        <button class="close">Close</button>
+        <button class="close" id="close">Close</button>
     </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
